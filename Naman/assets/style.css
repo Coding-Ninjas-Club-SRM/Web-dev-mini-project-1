@@ -2,11 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
 header{
     height: auto;
 }
-
 .navigation{
     display: flex;
     justify-content: space-between;
@@ -197,18 +195,17 @@ header{
     margin-top: 2%;
     width: 100%;
 }
-.ul3{
-    position: absolute;
-    left: 50%;
-    top: 55%;
-    transform: translate(-50%, -50%);
+.ul3-ul{
+    display: flex;
+    margin-top: 4%;
+    justify-content: center;
 }
 .ul3 ul li{
     padding-top: 2%;
     width: 350px;    
     height: 250px;    
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 2%;
     background-color: rgb(235, 235, 235);
     
 }
@@ -227,10 +224,10 @@ header{
     font-family: 'Inter', sans-serif;
 }
 #footer{
-    width: 100%;
+    overflow-x: hidden;
     background-color: rgb(39, 39, 39);
-    height: 350px;
-    padding: 8rem 0 6rem 0;
+    height: 400px;
+    padding: 4% 0 0 4%;
 }
 .inside-content{
     width: 75rem;
@@ -239,9 +236,12 @@ header{
     height: 300px;
 }
 .footer-first-content{
-    width: 50%;
+    width: 40%;
     display: inline-block;
     padding-right: 4rem;
+}
+.footer-text{
+    width: 80%;
 }
 .footer-first-content h2{
     font-family: 'Work Sans', sans-serif;
@@ -282,27 +282,27 @@ header{
 }
 .footer-second-content ul li a:hover{
     color: #ce1b28;
-    
 }
 .footer-second-content ul li:first-child{
     border-top: none;
 }
 .footer-third-content{
-    width: 25%;
-    height: 300px;
-    padding-left: 4rem;
+    padding-left: 4%;
 }
 .footer-third-content h2{
     font-family: 'Work Sans', sans-serif;
     color: white;
     font-weight: 100;
+    width: fit-content;
 }
 .footer-third-content ul{
     margin-top: 20px;
+    width: fit-content;
 }
 .footer-third-content ul li{
     list-style: none;
     line-height: 50px;
+    width: fit-content;
 }
 .footer-third-content ul li a{
     text-decoration: none;
@@ -315,7 +315,7 @@ header{
     margin-left: 15px;
 }
 .footer-third-content ul li a span{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Work Sans', sans-serif;
     color: rgb(255 255 255);
     transition: 0.5s ease;
@@ -338,6 +338,23 @@ header{
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 0.8rem;
-    padding: 2rem 0;
+    padding-top: 2%;
     color: #737373;
+}
+
+@media only screen and (max-width:1100px){
+    .ul3-ul{
+        display: flex;
+        margin-top: 4%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ul3 ul li{
+        padding-top: 2%;
+        width: 350px;    
+        height: 250px;    
+        display: inline-block;
+        margin-left: 2%;
+        background-color: rgb(235, 235, 235);   
+    }
 }
