@@ -106,8 +106,11 @@ header{
 .top-card-list, .bottom-card-list{
     display: flex;
     justify-content: space-between;
-    margin-top: 5%;
+    margin-top: 2%;
     width: 90%;
+}
+.bottom-card-list{
+    margin-bottom: 2%;
 }
 .ul6 ul{
     padding: 10px;
