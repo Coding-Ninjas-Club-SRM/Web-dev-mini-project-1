@@ -562,7 +562,7 @@ body{
   color: #737373;
 }
 
-@media (max-width: 800px) and (min-width: 450px) {
+@media (max-width: 800px) and (min-width: 460px) {
   #footer {
     padding: 1rem;
     height: 450px;
@@ -671,14 +671,14 @@ body{
   }
   .outside-content hr {
     background-color: #5d5d5d;
-    height: 2px;
+    height: 1.5px;
     border: none;
     outline: none;
   }
   .outside-content p {
     text-align: center;
     font-size: 0.8rem;
-    padding: 2rem 0;
+    padding: 1.5rem;
     color: #737373;
   }
 }
