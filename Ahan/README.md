@@ -1,1 +1,3 @@
-# Web-dev-mini-project-1
+# Ahan's thing
+![Screenshot](./preview/screenshot.png)
+![Screenshot](./preview/screenshot2.png)
