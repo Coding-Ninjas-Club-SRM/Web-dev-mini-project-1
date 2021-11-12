@@ -128,7 +128,7 @@ body{
   #banner {
     height: auto !important;
     min-height: 0;
-    padding: 4rem 2rem 4rem 2rem; }
+ }
     #banner .inner {
       width: 100%; }
     #banner h1 {
